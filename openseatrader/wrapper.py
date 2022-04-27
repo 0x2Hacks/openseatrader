@@ -1,5 +1,5 @@
 from requests import Request, Session
-from models.collection import Collection
+from openseatrader.models.collection import Collection
 
 _s = Session()
 

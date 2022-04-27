@@ -1,4 +1,4 @@
-from openseatrader import wrapper
+import openseatrader as ot
 
-meta = wrapper.retrieve_a_single_collection("crypto-coral-tribe")
+meta = ot.retrieve_a_single_collection("crypto-coral-tribe")
 print(meta.json_data)
